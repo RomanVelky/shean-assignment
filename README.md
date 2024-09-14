@@ -1,4 +1,4 @@
-# Shein assignment
+# Shean assignment
 ## Popis
 Cílem bude vytvořit responzivní microsite, včetně všech technikálií. Použití frameworků není omezené, je to tedy plně na tvém zvážení.
 
