@@ -31,17 +31,6 @@ const MicroSite = () => {
   return (
     <>
       <Helmet>
-        <title>Narozeniny</title>
-        <meta property="og:title" content="Oslavte s námi naše narozeniny" />
-        <meta
-          property="og:description"
-          content="Vyžádejte si svůj dárek zadáním vašeho e-mailu."
-        />
-        <meta property="og:image" content={sheepImage} />
-        <meta
-          property="og:url"
-          content="https://shean-assignment.netlify.app/"
-        />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
