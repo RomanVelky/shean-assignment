@@ -1,0 +1,121 @@
+@import "tailwindcss/utilities";
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title img {
+  padding-top: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 8px;
+}
+
+form input {
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ff5733;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content button {
+  margin-top: 20px;
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #ff5733;
+}
+
+.app-background {
+  background: url("../assets/background.png");
+  @apply bg-cover bg-no-repeat bg-center;
+
+  @apply xl:bg-right xl:bg-contain xl:bg-no-repeat;
+}
+
+.email-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.email-icon {
+  position: absolute;
+  left: 10px;
+  top: 20%;
+  color: #888;
+}
+
+.email-input-container input {
+  padding: 12px 12px 12px 42px; /* extra padding to make room for the icon */
+  border: 1px solid #dcdcdc;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+.sheep-image {
+  display: inline;
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  transform: translate(5%, 10%);
+}
