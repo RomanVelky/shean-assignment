@@ -38,7 +38,10 @@ const MicroSite = () => {
           content="Vyžádejte si svůj dárek zadáním vašeho e-mailu."
         />
         <meta property="og:image" content={sheepImage} />
-        <meta property="og:url" content="https://example.com" />
+        <meta
+          property="og:url"
+          content="https://shean-assignment.netlify.app/"
+        />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -47,22 +50,22 @@ const MicroSite = () => {
             startDate: "2023-10-15",
             description: "Vyžádejte si svůj dárek zadáním vašeho e-mailu.",
             image: sheepImage,
-            url: "https://example.com",
+            url: "https://shean-assignment.netlify.app/",
             location: {
               "@type": "Place",
               name: "Místo události",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Ulice a číslo",
-                addressLocality: "Město",
-                postalCode: "PSČ",
+                streetAddress: "Bezručova 2297/2",
+                addressLocality: "Blansko 1",
+                postalCode: "678 01",
                 addressCountry: "CZ",
               },
             },
             organizer: {
               "@type": "Organization",
-              name: "Organizace",
-              url: "https://organize-example.com",
+              name: "Shean",
+              url: "https://www.shean.cz/",
             },
           })}
         </script>
